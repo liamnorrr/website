@@ -1,0 +1,38 @@
+body {
+    background-color: #f2fefc;
+    font-family: sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    padding: 15px 40px;
+    text-decoration: none;
+}
+header nav a, header h1 a {
+    color:black;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 30px;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:0 20px;
+}
+.about-text {
+    
+    color: black;
+    font-size: 15px;
+}
+
+.selfie-image {
+    width: 20%;
+    height: auto;
+}
